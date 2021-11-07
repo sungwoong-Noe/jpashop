@@ -9,7 +9,7 @@
 3. H2(데이터베이스)
 4. JPA(ORM)
 5. jdk 11
-6. thymleaf
+6. thymeleaf
 
 #### 프로젝트 생성
 
@@ -18,8 +18,31 @@
   2. jpa
   3. h2 데이터베이스
   4. lombok
-  5.thymleaf
+  5.thymeleaf
   
 #### 인텔리제이 설정
 * IntelliJ > Preperence > gradle 검색 > build and run using, run tests using을 gradle에서 intelliJ로 변경 
 * Lombok 플러그인 설치 > Preperence에서 'annotation Processor' 검색 후 Enable annotation processing 체크 
+
+#### 핵심 라이브러리
+* 스프링 MVC
+* 스프링 ORM
+* JPA, 하이버네이트
+* 스프링 데이터 JPA
+
+#### 기타 라이브러리
+* H2 데이터베이스 클라이언트
+* 커넥션 풀: 부트 기본은 HikariCP
+* WEB(thymeleaf)
+* 로깅(SLF4J & LogBack
+* 테스트
+
+
+## 1. Thymeleaf, https://www.thymeleaf.org/
+
+- 장점
+  * 마크업을 깨지 않고 그대로 쓸 수 있음. 웹 브라우저에서 열림
+  * 익숙해지면 편하다.
+
+- 세팅은 dependancy에 thymeleaf만 추가해주면 된다.
+- 
